@@ -1,0 +1,11 @@
+Reference,Category,Item,Model,Qty,Status,Unit Cost BRL,Total Cost BRL,Source,Notes
+PWR-001,Source,Primary DC PSU,TBD,1,PENDING,0,0,,Select after measured load budget
+PWR-002,Source,Removable powerbank,Basike 20000mAh 22.5W,1,OWNED,0,0,User-owned,Initial battery/source candidate
+PTH-001,Power Path,Power mux / ideal-diode stage,TBD,1,PENDING,0,0,,Do not purchase until architecture is validated
+PRO-001,Protection,Main fuse and holder,TBD,1,PENDING,0,0,,Size from validated current limits
+PRO-002,Protection,Per-output protection,TBD,4,PENDING,0,0,,Final quantity depends on output architecture
+CVT-001,Converter,12V to 19V converter,TBD,1,PENDING,0,0,,Laptop rail; validate power and thermal margin
+TEL-001,Telemetry,INA226/INA219,TBD,1,FUTURE,0,0,,Telemetry stage
+TEL-002,Telemetry,ESP32,TBD,1,FUTURE,0,0,,ESPHome/Home Assistant stage
+MEC-001,Mechanical,Printed enclosure,TBD,1,FUTURE,0,0,,Material and print parameters pending
+MEC-002,Mechanical,Battery carrier,TBD,1,FUTURE,0,0,,Removable powerbank interface
