@@ -1,9 +1,11 @@
 Reference,Item,Preferred Part,Alternatives,Qty,Procurement Status,Unit Cost BRL,Total Cost BRL,Source,Notes
-PWR-001,Primary DC PSU,TBD,TBD,1,PENDING,0,0,,Price only after electrical specification
-PWR-002,Basike powerbank,Basike 20000mAh 22.5W,TBD,1,OWNED,0,0,User-owned,Existing project asset; no new purchase
-PTH-001,Power mux,TBD,Equivalent ideal-diode/power-path controller,1,PENDING,0,0,,Compare local and international availability
-PRO-001,Main fuse/holder,TBD,Automotive blade or equivalent rated protection,1,PENDING,0,0,,Final rating depends on validated bus current
-CVT-001,12V-to-19V converter,TBD,TBD,1,PENDING,0,0,,Laptop rail; prioritize documented efficiency and thermal behavior
+PWR-001,Primary DC PSU,TBD,TBD,1,PENDING,0,0,,Price only after measured load budget
+PWR-002,Basike powerbank,Basike 20000mAh 22.5W,TBD,1,OWNED,0,0,User-owned,Existing backup-source candidate; published USB-C output is ~20 W class at 12 V
+PTH-001,Power mux,TBD,TPS2121 or equivalent ideal-diode/power-path controller,1,PENDING,0,0,,Select after measured current and transient requirements
+PTH-002,USB-C PD sink stage,TBD,TBD,1,PENDING,0,0,,Explicit USB-C PD negotiation/protection stage required; do not wire the powerbank directly to the 12 V bus
+PRO-001,Main fuse/holder,TBD,TBD,1,PENDING,0,0,,Final rating depends on validated bus current
+PRO-002,Per-output protection,TBD,TBD,4,PENDING,0,0,,Final quantity and ratings depend on output architecture
+CVT-001,12V-to-19V converter,TBD,TBD,1,PENDING,0,0,,Laptop rail; prioritize documented peak power, efficiency and thermal behavior
 TEL-001,Current/voltage monitor,INA226 or INA219,Compatible high-side monitor,1,FUTURE,0,0,,Telemetry
 TEL-002,MCU,ESP32,TBD,1,FUTURE,0,0,,ESPHome/Home Assistant
 MEC-001,Enclosure material,ABS or ASA,TBD,1,FUTURE,0,0,,Final material after thermal prototype
