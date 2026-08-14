@@ -1,0 +1,9 @@
+EveDock contains multiple classes of work and uses separate licenses for each class.
+
+Hardware design files are licensed under the CERN Open Hardware Licence Version 2 - Strongly Reciprocal (CERN-OHL-S-2.0).
+
+Firmware and software are licensed under the Apache License 2.0.
+
+Documentation is licensed under the Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0).
+
+The complete license texts should be stored in the appropriate project scope before the corresponding artifacts are considered released. See docs/legal/licensing.md.
